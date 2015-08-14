@@ -13,7 +13,7 @@ GIT INSTALL
 3. Clone from fork (update for your fork).
    Navigate to the _HOME_ directory that you want to use for projects.
    Copy the __SSH__ URL located in the right-hand column near the bottom.
-   It should look similar to this:
+   Paste it in the terminal with `git clone`. It should look similar to this:
 
         git clone git@github.com:[your username]/earthquake-eventadmin.git
 
@@ -25,7 +25,8 @@ GIT INSTALL
 
         cd earthquake-eventpages
 
-5. Add upstream remote for primary (use terminal)
+5. Add upstream remote for primary. This will allow you to pull down updates
+   later.
 
         git remote add upstream git@github.com:usgs/earthquake-eventpages.git
 

@@ -3,7 +3,6 @@ earthquake-eventadmin
 
 Web application for administering earthquake event products.
 
----
 ## Getting Started ##
 
 ### [Install](readme_dependency_install.md) ###
