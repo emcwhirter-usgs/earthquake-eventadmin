@@ -1,5 +1,13 @@
+Readme install dependencies
+
+### [Clone the Project](readme_git_install.md) ###
+Use git to clone earthquake-eventadmin from git repository.
+
 ### Dependencies ###
-You will need to have the following tools installed in order to run this project:
+You will need to have the following tools installed in order to run this
+project. Check out the [Mac](readme_dependency_install_specifics.md#mac) and
+[Windows](readme_dependency_install_specifics.md#windows) details here, or in
+the links below for more specific dependency information.
 
 1. Node
   1. Grunt
@@ -12,7 +20,7 @@ You will need to have the following tools installed in order to run this project
 Make sure you are in your `earthquake-eventpages` project directory.
 Install these packages from your terminal.
 
-1. Install local npm modules  
+1. Install local npm modules
    ```npm install```
 
-   [Dependency install details for Windows and Mac](readme_dependency_install_specifics.md)
+[Dependency install details for Windows and Mac](readme_dependency_install_specifics.md)
