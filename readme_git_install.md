@@ -1,4 +1,4 @@
-GIT INSTALL
+Git install
 
 ### Fork the project repository ###
 
