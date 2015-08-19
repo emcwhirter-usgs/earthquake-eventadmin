@@ -18,7 +18,7 @@ the links below for more specific dependency information.
   1. Compass
 
 ### Secondary Dependencies ###
-Make sure you are in your `earthquake-eventpages` project directory.
+Make sure you are in your `earthquake-eventadmin` project directory.
 
 1. Install local npm modules
 

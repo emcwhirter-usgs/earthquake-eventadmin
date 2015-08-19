@@ -1,10 +1,16 @@
-Git install
+Git clone
 
+If you plan to contribute code to this project, follow all of the directions
+below, other wise you can just use this to get a copy of the project:
+
+      git clone https://github.com/usgs/earthquake-eventadmin.git
+
+---
 ### Fork the project repository ###
 
 1. Fork the project into your GitHub user account.
   1. Sign in to GitHub.
-  2. Go to `https://github.com/usgs/earthquake-eventpages`.
+  2. Go to `https://github.com/usgs/earthquake-eventadmin`.
   3. Click the **Fork** button near the top right of the page.
 
 2. Make sure you Add an SSH Key to GitHub for the computer you're
@@ -23,12 +29,12 @@ Git install
 
 4. Make sure you navigate in to the newly created project directory
 
-        cd earthquake-eventpages
+        cd earthquake-eventadmin
 
 5. Add upstream remote for primary. This will allow you to pull down updates
    later.
 
-        git remote add upstream git@github.com:usgs/earthquake-eventpages.git
+        git remote add upstream git@github.com:usgs/earthquake-eventadmin.git
 
    Check your remotes with `git remote -v`, it should look like this
 
