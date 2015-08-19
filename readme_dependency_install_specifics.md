@@ -59,16 +59,10 @@ Readme install dependency details
 
 4. Install PHP, from zip.
   1. Download the appropriate zip file from http://windows.php.net/download/
-  2. Unzip the folder and copy the contents into a new folder on your C:\ drive.
-     `C:\php54`
-  3. Add PHP to your PATH.
-    1. Right-Click on **My Computer** (or **Computer**) -> **Properties**.
-    2. Click **Advanced system settings**.
-    3. Click the **Advanced** tab at the top.
-    4. Click on **Environment Variables...*.
-    5. Find **Path** under the **System variables**, then click **Edit...*
-    6. Make sure there is a **;** (semi-colon) after the last item in the list,
-       then add `C:\php54;`
+  2. Unzip the folder and copy the contents into a new folder on your `C:\`
+     drive.
+      `C:\php54`
+  3. Add PHP to your **PATH**; add `C:\php54;` as an environment variable.
 
 5. Close and re-open your terminal so that your new PATH is loaded.
    Make sure to navigate back to your `earthquake-eventadmin` project directory.
