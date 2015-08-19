@@ -54,9 +54,9 @@ below, other wise you can just use this to get a copy of the project:
   4. `cat ~/.ssh/id_rsa.pub`
      Copy the text block that is displayed.
      This is your SSH key.
-     If you're on Window and can't copy the text from the terminal, go
-     to `C:\Users\[your username here]\.ssh` and open the `id_rsa.pub` file
-     with notepad.
+     - If you can't copy the text from the terminal and you're on Windows, go
+       to `C:\Users\[your username here]\.ssh` and open the `id_rsa.pub` file
+       with notepad.
 
   5. In GitHub, click **Edit Your Profile**.
 

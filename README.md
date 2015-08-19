@@ -10,17 +10,16 @@ First time install. Walk through dependencies and other considerations.
 
 ### Configure ###
 
-1. run `./src/lib/pre-install` to setup config.ini
-  Use the defaults provided.
+Run `./src/lib/pre-install` to setup **config.ini**, use the provided defaults.
 
 ### Use ###
 
-1. Run `grunt` from the install directory.
+Run `grunt` from the install directory.
 
 ### Notes ###
 
-1. This application uses the earthquake responsive template found at
-   https://github.com/usgs/hazdev-template.git
-   The responsive template dependency is not bundled during build, so sites
-   can configure their theme, and must be installed before this application
-   is deployed.
+This application uses the earthquake responsive template found at
+https://github.com/usgs/hazdev-template.git
+The responsive template dependency is not bundled during build, so sites
+can configure their theme, and must be installed before this application
+is deployed.

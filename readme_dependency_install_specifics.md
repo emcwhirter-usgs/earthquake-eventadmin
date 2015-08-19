@@ -1,5 +1,6 @@
 Readme install dependency details
 
+---
 ### Mac ###
 
 1. install xcode
@@ -23,8 +24,8 @@ Readme install dependency details
         npm install -g grunt-cli
 
 5. Update paths as needed in your `~/.bash_profile`:
-   If you use a tool other than brew to install these dependencies, you may
-   need to modify these paths to point to the install directories.
+   (If you use a tool other than brew to install these dependencies, you may
+   need to modify these paths to point to the install directories.)
 
         # brew installed binaries
         export PATH=$PATH:/usr/local/bin
