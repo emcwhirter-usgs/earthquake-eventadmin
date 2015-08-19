@@ -23,6 +23,8 @@ Readme install dependency details
         npm install -g grunt-cli
 
 5. Update paths as needed in your `~/.bash_profile`:
+   If you use a tool other than brew to install these dependencies, you may
+   need to modify these paths to point to the install directories.
 
         # brew installed binaries
         export PATH=$PATH:/usr/local/bin
@@ -62,7 +64,8 @@ Readme install dependency details
   2. Unzip the folder and copy the contents into a new folder on your `C:\`
      drive.
       `C:\php54`
-  3. Add PHP to your **PATH**; add `C:\php54;` as an environment variable.
+  3. Add PHP to your **PATH** (add `C:\php54;` to your "PATH" environment
+     variable).
 
 5. Close and re-open your terminal so that your new PATH is loaded.
    Make sure to navigate back to your `earthquake-eventadmin` project directory.
