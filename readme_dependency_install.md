@@ -1,8 +1,8 @@
 Readme install dependencies
 
 ### [Clone the Project](readme_git_install.md) ###
-Use git to clone earthquake-eventadmin from git repository (if you haven't
-already).
+Use git to clone the earthquake-eventadmin project from GitHub repository
+(if you haven't already).
 
 ### Dependencies ###
 You will need to have the following tools installed in order to run this
@@ -17,11 +17,25 @@ the links below for more specific dependency information.
   1. Sass
   1. Compass
 
+[Dependency install details for Windows and Mac](readme_dependency_install_specifics.md)
+
+---
 ### Secondary Dependencies ###
 Make sure you are in your `earthquake-eventadmin` project directory.
 
-1. Install local npm modules
+1. Install Sass and Compass with Ruby
+
+        gem install sass
+        gem install compass
+
+1. Use npm to install grunt
+
+        npm install -g grunt-cli
+
+2. Install local npm modules
 
         npm install
 
-[Dependency install details for Windows and Mac](readme_dependency_install_specifics.md)
+---
+Once dependencies are installed, you need to
+[configure the project](README.md#configure).

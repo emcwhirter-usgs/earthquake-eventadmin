@@ -1,17 +1,20 @@
 Git clone
 
 If you plan to contribute code to this project, follow all of the directions
-below, other wise you can just use this to get a copy of the project:
+below, other wise you can just use this command to get a copy of the project:
 
       git clone https://github.com/usgs/earthquake-eventadmin.git
+
+Then continue
+[installing dependencies](readme_dependency_install.md#dependencies).
 
 ---
 ### Fork the project repository ###
 
 1. Fork the project into your GitHub user account.
-  1. Sign in to GitHub.
-  2. Go to `https://github.com/usgs/earthquake-eventadmin`.
-  3. Click the **Fork** button near the top right of the page.
+  1. Sign in to GitHub
+  2. Go to `https://github.com/usgs/earthquake-eventadmin`
+  3. Click the **Fork** button near the top right of the page
 
 2. Make sure you Add an SSH Key to GitHub for the computer you're
    working on into your GitHub account, see below for specifics.
@@ -65,3 +68,6 @@ below, other wise you can just use this to get a copy of the project:
   7. Click **Add SSH key**. Give it a meaningful title.
 
   8. Copy your SSH Key into the Key, and click **Add key**.
+
+When all of that is complete, don't for get to
+[continue installing dependencies](readme_dependency_install.md#dependencies).
