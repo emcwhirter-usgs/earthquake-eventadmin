@@ -3,6 +3,8 @@ Earthquake Event Admin
 
 Web application for administering earthquake event products.
 
+[License](LICENSE.md)
+
 ## Getting Started ##
 
 ### [Install](readme_dependency_install.md) ###
